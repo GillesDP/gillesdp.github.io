@@ -1,25 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <link rel="stylesheet" type="text/css" href="main.css">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:700|Roboto+Slab:700|Roboto:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
-    
-    <title>Gilles</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gilles De Praetere</title>
 </head>
 <body>
-    <div class="hero">
-        <center class="box">
-            <h1>Gilles</h1>
-            <p>Hi there, thank you for visiting my site. Click the links below to get in touch with me!</p>
-            <a href="https://twitter.com/GewoonGilles" class="btn"><i class="fab fa-twitter"></i></a>
-            <a href="https://www.behance.net/gillesdepraetere" class="btn"><i class="fab fa-behance"></i></a>
-            <a href="https://dribbble.com/GillesDePraetere" class="btn"><i class="fab fa-dribbble"></i></a>
-            <a class="btn discord">Gilles#1616</a>
-        </center>
-    </div>
+  <h1>Gilles De Praetere</h1>
+  <p>I'm a 22 year old Computer Science Engineering student at Ghent University.</p>
+  <ul>
+    <li><b>Name</b> — Gilles De Praetere</li>
+    <li><b>Age</b> — 22</li>
+    <li><b>Gender</b> — Male</li>
+    <li><b>Based near</b> — Ghent</li>
+    <li><b>Attendee</b> — Big Data Technology</li>
+  </ul>
+
+  <script type="application/ld+json">
+    {
+      "@context": {
+        "age": "http://xmlns.com/foaf/0.1/age",
+        "Person": "http://xmlns.com/foaf/0.1/Person",
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "knows": "http://xmlns.com/foaf/0.1/knows",
+        "attendee": "http://schema.org/attendee",
+        "gender": "http://xmlns.com/foaf/0.1/gender",
+        "based_near": "http://xmlns.com/foaf/0.1/based_near"
+      },
+      "@type": "Person",
+      "@id": "https://github.ugent.be/pages/gildprae/gildprae.github.io/#me",
+      "name": "Gilles De Praetere",
+      "age": "22",
+      "attendee": {
+        "@id": "https://pietercolpaert.be/teaching/bdt/#2024-2025",
+        "name": "Big Data Technology"
+      },
+      "based_near": {
+        "@id": "https://en.wikipedia.org/wiki/Ghent",
+        "name": "Ghent"
+      },
+      "knows": [
+        {
+          "@id": "https://wodsaegh.github.io/#me",
+          "name": "Wout De Saegher"
+        }
+      ]
+    }
+  </script>
 </body>
 </html>
